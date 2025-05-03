@@ -22,7 +22,7 @@ name = "Guhanarull"
 user_name.send_keys(name)
 user_name.click()
 user_password = web_driver.find_element(By.CSS_SELECTOR,"[id='password']")
-password = "Guhan@12345"
+password = ""
 user_password.send_keys(password)
 
 sign_in = web_driver.find_element(By.CSS_SELECTOR,".btn.btn-primary.btn-block.js-sign-in-button")
